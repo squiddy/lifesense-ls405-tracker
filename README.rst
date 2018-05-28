@@ -25,43 +25,45 @@ Services & Characteristics
 
 All definitions use the short UUID of BLE.
 
-Service 00001800
+::
 
-Characteristic 00002a00 rw Device Name (defaults to "Max Buzz")
-Characteristic 00002a01 ro
-Characteristic 00002a04 ro
-
-Service 0000180a
-
-Characteristic 00002a23 ro System ID (?)
-Characteristic 00002a24 ro Model Number
-Characteristic 00002a25 ro Serial Number
-Characteristic 00002a26 ro Firmware Revision
-Characteristic 00002a27 ro Hardware Revision
-Characteristic 00002a29 ro Manufacturer name
-
-Service 0000fee7
-
-Characteristic 0000fec7
-Characteristic 0000fec8
-Characteristic 0000fec9 ro Returns the Mac Address.
-
-Service 0000fcc0
-
-Characteristic 0000fcc6
-Characteristic 0000fcc7
-Characteristic 0000fcc8 ro Returns the Mac Address, a null byte and two
-                           additional bytes that aren't constant.
-
-Service 0000a500
-
-Characteristic 0000a501
-Characteristic 0000a502
-Characteristic 0000a503
-
-Service 0000a520
-
-Characteristic 0000a523 ro Returns the same two bytes as 0000fcc8 at the end.
+    Service 00001800
+    
+    Characteristic 00002a00 rw Device Name (defaults to "Max Buzz")
+    Characteristic 00002a01 ro
+    Characteristic 00002a04 ro
+    
+    Service 0000180a
+    
+    Characteristic 00002a23 ro System ID (?)
+    Characteristic 00002a24 ro Model Number
+    Characteristic 00002a25 ro Serial Number
+    Characteristic 00002a26 ro Firmware Revision
+    Characteristic 00002a27 ro Hardware Revision
+    Characteristic 00002a29 ro Manufacturer name
+    
+    Service 0000fee7
+    
+    Characteristic 0000fec7
+    Characteristic 0000fec8
+    Characteristic 0000fec9 ro Returns the Mac Address.
+    
+    Service 0000fcc0
+    
+    Characteristic 0000fcc6
+    Characteristic 0000fcc7
+    Characteristic 0000fcc8 ro Returns the Mac Address, a null byte and two
+                               additional bytes that aren't constant.
+    
+    Service 0000a500
+    
+    Characteristic 0000a501
+    Characteristic 0000a502
+    Characteristic 0000a503
+    
+    Service 0000a520
+    
+    Characteristic 0000a523 ro Returns the same two bytes as 0000fcc8 at the end.
 
 Development
 -----------
