@@ -5,6 +5,7 @@ name = "pypi"
 
 [packages]
 scapy = "*"
+black = "==18.5b0"
 
 [dev-packages]
 
